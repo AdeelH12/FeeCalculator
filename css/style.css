@@ -1,0 +1,50 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgba(38, 1, 59, 0.5) !important;
+}
+
+h1,
+h2 {
+
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+}
+
+h1 {
+
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+}
+
+h2 {
+
+    margin-bottom: 20px !important;
+}
+.sell-wrapper,
+.item-cost-wrapper {
+
+    margin: 0 auto;
+    float: none;
+}
+
+input[type="text"] {
+
+    margin-bottom: 75px;
+}
+
+.btn-reset {
+
+    margin-top: 20px;
+}
+
+#display-result {
+
+    font-size: 80px;
+}

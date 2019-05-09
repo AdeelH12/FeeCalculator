@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fees Calculator</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Fees Calculator</h1>
+    </div>
+
+    <div class="sell-wrapper form-group w-50">
+        <h2>Enter Selling Price Below</h2>
+        <input type="text" id="selling-price" class="form-control" aria-label="Amount (to the nearest dollar)">
+    </div>
+
+
+    <div class="item-cost-wrapper form-group w-50">
+        <h2>Enter Buying Price Below</h2>
+        <input type="text" id="buying-price" class="form-control" aria-label="Amount (to the nearest dollar)">
+    </div>
+
+    <div class="display-result">
+
+    </div>
+
+    <div class="form-row text-center">
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary button-calc" onclick="calculate()">Calculate</button>
+        </div>
+    </div>
+
+    <div class="form-row text-center">
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
